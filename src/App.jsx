@@ -6,7 +6,7 @@ import HighLights from './components/HighLights';
 function App() {
 
   return (
-    <main>
+    <main className='bg-black'>
       <NavBar />
       <Hero />
       <HighLights />
