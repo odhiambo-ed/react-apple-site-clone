@@ -1,10 +1,15 @@
 import './App.css'
+import Hero from './components/Hero';
+import NavBar from './components/NavBar';
+import HighLights from './components/HighLights';
 
 function App() {
 
   return (
     <main>
-      <h1>React App</h1>
+      <NavBar />
+      <Hero />
+      <HighLights />
     </main>
   );
 }
