@@ -27,15 +27,23 @@ const Hero = () => {
   return (
     <section className="w-full nav-height bg-black relative">
       <div className="h-5/6 w-full flex-center flex-col">
-        <p id='hero' className="hero-title">iPhone 15 pro</p>
+        <p id="hero" className="hero-title">
+          iPhone 15 pro
+        </p>
+        <div className="md:w-10/12 w-9/12">
+          <video autoPlay muted playsInline={true} key={videoSrc}>
+            <source src={videoSrc} type="video/mp4" />
+          </video>
+        </div>
       </div>
-      <div className="w-9/12 md:w-10/12">
-        <video autoPlay muted playsInline={true} key={videoSrc}>
-          <source src={videoSrc} type='video/mp4' />
-        </video>
+      <div className="flex flex-col items-center opacity-0 translate-y-20">
+        <a href="#" className='btn'>Buy</a>
+        <div className="font-normal text-xl">
+          $1599
+        </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Hero
