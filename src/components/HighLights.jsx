@@ -1,6 +1,8 @@
 const HighLights = () => {
   return (
-    <div>HighLights</div>
+    <section id='highlights' className="w-screen overflow-hidden">
+      
+    </section>
   )
 }
 
