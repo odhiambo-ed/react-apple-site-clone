@@ -2,6 +2,7 @@ import './App.css'
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 import HighLights from './components/HighLights';
+import Model from './components/Model';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Hero />
       <HighLights />
+      <Model />
     </main>
   );
 }
